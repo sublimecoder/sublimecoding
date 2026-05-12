@@ -1,5 +1,7 @@
 # System Design — Idempotent Endpoint
 
+A Claude Code / Cursor prompt for designing idempotent endpoints that survive real-world client retries — payments, webhooks, mutation APIs.
+
 **Use when:** Designing any write endpoint that a client might retry — payments, webhooks, mutation APIs, anything that crosses a network you don't own.
 
 **Why it works:** "Just add an idempotency key" is the answer that gets you 60% of the way there and silently leaks money in production. This prompt forces the design conversation past the easy part.
@@ -22,4 +24,12 @@ ENDPOINT:
 
 ---
 
-This is 1 of 50 prompts in [The Senior Engineer's AI Prompt Vault](https://sublimecoding.com/vault).
+### Want the other 49?
+
+This is one of 5 sample prompts from **[The Senior Engineer's AI Prompt Vault](https://sublimecoding.com/vault)** — 50 production-tested prompts for Claude Code and Cursor, plus 5 `.cursorrules` files and 3 `CLAUDE.md` starters (Go, Elixir, AI agents).
+
+**$39 founders edition** (first 50 buyers, then $49) · 7-day refund · lifetime updates · no app, no login.
+
+→ **[Get the Vault](https://sublimecoding.com/vault)**
+
+Other free samples: [code review](./code-review-blast-radius.md) · [debugging](./debugging-hypothesis-driven.md) · [refactoring](./refactoring-long-functions.md) · [PR descriptions](./docs-pr-description.md)

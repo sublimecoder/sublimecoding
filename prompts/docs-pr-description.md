@@ -1,5 +1,7 @@
 # Docs & PRs — High-Signal PR Description
 
+A Claude Code / Cursor prompt for writing PR descriptions a busy reviewer will actually read — structured around what they care about, not the diff.
+
 **Use when:** You're about to open a PR and don't want to write "this PR does X" three times. Also useful for retroactively documenting a messy branch.
 
 **Why it works:** Most generated PR descriptions narrate the diff. A good one helps the reviewer decide what to actually look at. This prompt is structured around what reviewers care about, not what's easy to summarize.
@@ -25,4 +27,12 @@ DIFF + context:
 
 ---
 
-This is 1 of 50 prompts in [The Senior Engineer's AI Prompt Vault](https://sublimecoding.com/vault).
+### Want the other 49?
+
+This is one of 5 sample prompts from **[The Senior Engineer's AI Prompt Vault](https://sublimecoding.com/vault)** — 50 production-tested prompts for Claude Code and Cursor, plus 5 `.cursorrules` files and 3 `CLAUDE.md` starters (Go, Elixir, AI agents).
+
+**$39 founders edition** (first 50 buyers, then $49) · 7-day refund · lifetime updates · no app, no login.
+
+→ **[Get the Vault](https://sublimecoding.com/vault)**
+
+Other free samples: [code review](./code-review-blast-radius.md) · [debugging](./debugging-hypothesis-driven.md) · [refactoring](./refactoring-long-functions.md) · [system design](./system-design-idempotency.md)

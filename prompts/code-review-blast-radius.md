@@ -1,5 +1,7 @@
 # Code Review — Blast Radius
 
+A Claude Code / Cursor prompt for reviewing diffs the way a staff engineer would — focused on blast radius, not style nits.
+
 **Use when:** Before merging any non-trivial change, especially across module boundaries or near production data paths.
 
 **Why it works:** Style nits are what linters are for. The job of a human (or AI) reviewer is to find the things that page someone at 3am. This prompt skips the bikeshed and forces the model to map the actual failure surface.
@@ -26,4 +28,12 @@ DIFF:
 
 ---
 
-This is 1 of 50 prompts in [The Senior Engineer's AI Prompt Vault](https://sublimecoding.com/vault).
+### Want the other 49?
+
+This is one of 5 sample prompts from **[The Senior Engineer's AI Prompt Vault](https://sublimecoding.com/vault)** — 50 production-tested prompts for Claude Code and Cursor, plus 5 `.cursorrules` files and 3 `CLAUDE.md` starters (Go, Elixir, AI agents).
+
+**$39 founders edition** (first 50 buyers, then $49) · 7-day refund · lifetime updates · no app, no login.
+
+→ **[Get the Vault](https://sublimecoding.com/vault)**
+
+Other free samples: [debugging](./debugging-hypothesis-driven.md) · [refactoring](./refactoring-long-functions.md) · [system design](./system-design-idempotency.md) · [PR descriptions](./docs-pr-description.md)

@@ -21,7 +21,7 @@ Bias toward clarity, observability, and predictable failure.
 
 → **[Get the Vault](https://sublimecoding.com/vault)**
 
-Want a taste first? **[5 sample prompts in this repo →](./prompts)**
+Want a taste first? **[5 sample prompts in this repo →](./prompts)** · On the fence? **[FAQ →](./FAQ.md)**
 
 ---
 

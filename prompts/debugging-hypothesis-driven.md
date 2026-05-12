@@ -1,5 +1,7 @@
 # Debugging — Hypothesis-Driven Root Cause
 
+A Claude Code / Cursor prompt that stops AI from pattern-matching a fix before the actual root cause is identified.
+
 **Use when:** A bug is reproducible but the cause isn't obvious. Stops the model from pattern-matching to a plausible-looking fix that doesn't actually address the cause.
 
 **Why it works:** The default failure mode for AI debugging is generating a fix that "looks like it should work" before the cause is even identified. This prompt makes the model show its work and earn the fix.
@@ -22,4 +24,12 @@ Symptoms, repro steps, and what I've tried already:
 
 ---
 
-This is 1 of 50 prompts in [The Senior Engineer's AI Prompt Vault](https://sublimecoding.com/vault).
+### Want the other 49?
+
+This is one of 5 sample prompts from **[The Senior Engineer's AI Prompt Vault](https://sublimecoding.com/vault)** — 50 production-tested prompts for Claude Code and Cursor, plus 5 `.cursorrules` files and 3 `CLAUDE.md` starters (Go, Elixir, AI agents).
+
+**$39 founders edition** (first 50 buyers, then $49) · 7-day refund · lifetime updates · no app, no login.
+
+→ **[Get the Vault](https://sublimecoding.com/vault)**
+
+Other free samples: [code review](./code-review-blast-radius.md) · [refactoring](./refactoring-long-functions.md) · [system design](./system-design-idempotency.md) · [PR descriptions](./docs-pr-description.md)
