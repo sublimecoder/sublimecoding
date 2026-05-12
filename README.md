@@ -23,6 +23,12 @@ Bias toward clarity, observability, and predictable failure.
 
 Want a taste first? **[5 sample prompts in this repo →](./prompts)** · On the fence? **[FAQ →](./FAQ.md)**
 
+Free `CLAUDE.md` starter templates — drop them into any repo and Claude Code understands your conventions on the first message:
+
+- **[Go services →](https://github.com/sublimecoder/claude-md-go-starter)**
+- **[Elixir / Phoenix →](https://github.com/sublimecoder/claude-md-elixir-starter)**
+- **[AI agent projects →](https://github.com/sublimecoder/claude-md-ai-agents-starter)**
+
 ---
 
 #### Featured writing
