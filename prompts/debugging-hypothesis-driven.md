@@ -1,35 +1,38 @@
-# Debugging — Hypothesis-Driven Root Cause
+# Debugging — Hypothesis-Driven Debugging
 
-A Claude Code / Cursor prompt that stops AI from pattern-matching a fix before the actual root cause is identified.
+A staff-level Debugging prompt for Claude Code, Cursor, and other AI coding assistants.
 
-**Use when:** A bug is reproducible but the cause isn't obvious. Stops the model from pattern-matching to a plausible-looking fix that doesn't actually address the cause.
+**Use it when:** When you've been staring at a bug for 30 minutes and need a reset.
 
-**Why it works:** The default failure mode for AI debugging is generating a fix that "looks like it should work" before the cause is even identified. This prompt makes the model show its work and earn the fix.
+**Why it works:** Most debugging time is wasted on the first plausible explanation. Forcing 5 hypotheses + cheapest-falsification rebuilds the scientific method when fatigue has eroded it.
 
 ---
 
 ```
-A bug is reproducible. I want a root cause, not a fix.
+I'm debugging a problem. Reset me. Walk me through this rigorously.
 
-Before suggesting any code change, do this:
+Symptom (what I observe):
+<describe>
 
-1. State three competing hypotheses for what's actually broken. Rank them by likelihood given only the evidence I've given you. Do not collapse to one until we have evidence that rules the others out.
-2. For each hypothesis, name the single cheapest experiment, log line, or query that would falsify it.
-3. Tell me what evidence I'd need to see to be 95% sure of the cause. If the evidence I've given you isn't enough, say what's missing.
-4. Once we have a cause, only then propose a fix. The fix must include a regression test that fails before the fix and passes after.
+What should happen:
+<describe>
 
-Symptoms, repro steps, and what I've tried already:
-<paste here>
+What I've already ruled out:
+<list>
+
+Now:
+1. Generate 5 hypotheses ordered by likelihood given typical failure modes in this stack.
+2. For each hypothesis, write the cheapest test that would falsify it.
+3. Identify which test gives me the most information per minute spent.
+4. If two hypotheses are entangled, propose the ordering that disentangles them fastest.
+
+Don't suggest fixes yet. We're isolating, not fixing.
 ```
 
 ---
 
-### Want the other 49?
+### All 50 prompts — free
 
-This is one of 5 sample prompts from **[The Senior Engineer's AI Prompt Vault](https://sublimecoding.com/vault)** — 50 production-tested prompts for Claude Code and Cursor, plus 5 `.cursorrules` files and 3 `CLAUDE.md` starters (Go, Elixir, AI agents).
+This is one of 15 sample prompts from **[The Senior Engineer's AI Prompt Vault](https://sublimecoding.com/vault)** — 50 production-tested prompts for Claude Code and Cursor, plus 5 `.cursorrules` files and 3 `CLAUDE.md` starters (Go, Elixir, AI agents). Free, no login.
 
-**$39 founders edition** (first 50 buyers, then $49) · 7-day refund · lifetime updates · no app, no login.
-
-→ **[Get the Vault](https://sublimecoding.com/vault)**
-
-Other free samples: [code review](./code-review-blast-radius.md) · [refactoring](./refactoring-long-functions.md) · [system design](./system-design-idempotency.md) · [PR descriptions](./docs-pr-description.md)
+→ **[Get the full Vault, free](https://sublimecoding.com/vault)**  ·  **[← all 15 sample prompts](./README.md)**

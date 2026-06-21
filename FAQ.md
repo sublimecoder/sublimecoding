@@ -1,33 +1,31 @@
 # FAQ — The Senior Engineer's AI Prompt Vault
 
-Honest answers to what people actually ask before buying [the Vault](https://sublimecoding.com/vault).
+Honest answers to what people actually ask about [the Vault](https://sublimecoding.com/vault).
 
 If your question isn't here, email **jared@sublimecoding.com** — I read every one.
 
 ---
 
-## Is the Vault actually worth $39?
+## Wait — it's free? What's the catch?
 
-If one prompt saves you one production bug or one wasted hour of "wait, why did Claude refactor that?" it's paid for itself. Most buyers report that within the first week.
+No catch. The Vault is free: 50 prompts, 5 `.cursorrules` files, 3 `CLAUDE.md` starters, and the Notion blueprint. No login, no expiry, no drip.
 
-If you only use Claude or Cursor occasionally, or you're happy with the answers you're already getting — probably not for you. I'd rather you skip it than ask for a refund.
+It used to be a paid pack. I made it free because free prompt collections are everywhere, and the honest play is to make the best one the front door — not to fight for $39 against a thousand giveaways. If the prompts earn your trust, you'll know where to find me for [the harder problems](https://sublimecoding.com/consulting).
 
-## Why $39 and not free?
+## Is it actually any good?
 
-Free prompts exist. I have [5 of mine free](./prompts) and I link to other people's collections in [the Claude Code Resource Bible](https://sublimecoding.com/blog/claude-code-resource-bible).
+If one prompt saves you a single production bug, or one "wait, why did Claude refactor that?" hour, it's done its job. That's the bar every prompt in here is built to clear.
 
-The Vault is the curated, tested set I actually use — refined across 100K+ users of live AI products, an InfoSec leadership role, and three years of daily Claude / Cursor / Codex work. The $39 buys curation and the fact that I keep maintaining it.
+If you only use Claude or Cursor occasionally, or you're happy with the answers you already get — you may not need it. I'd rather you skip it than download something you won't use.
 
-The founders price ($39 for the first 50 buyers, then $49) exists because I'd rather have honest early feedback than a marketing campaign.
-
-## How is this different from free prompt collections on GitHub?
+## How is this different from the free prompt collections all over GitHub?
 
 Two things:
 
 1. **Audience.** Most public prompt collections are written for "anyone who codes." The Vault is written for staff/senior engineers shipping production systems — the prompts assume you already know what idempotency, blast radius, and characterization tests are, and they're tuned to enforce that level of rigor on the model.
 2. **Failure-mode discipline.** Every prompt is structured around the specific way Claude / Cursor *fails* at that task — pattern-matching a fix before the root cause, extracting along line boundaries instead of intent, narrating diffs instead of helping the reviewer. Generic prompts don't fight those failure modes.
 
-That said: if a free collection is solving your problem, use it. The Vault is for people who've already tried the free stuff and still aren't happy with the answers.
+You can judge for yourself: [15 of them are right here in this repo](./prompts), no email required.
 
 ## Will these work in Cursor? Codex? Aider? Windsurf?
 
@@ -39,17 +37,13 @@ The 5 `.cursorrules` files are obviously Cursor-specific. The 3 `CLAUDE.md` star
 
 The 50 prompts are language-agnostic — they're about *how to think*, not syntax. They work for any language Claude / Cursor know well (Python, TypeScript, Ruby, Rust, Java, Kotlin, Swift, etc.).
 
-The 3 `CLAUDE.md` starters cover Go services, Elixir umbrellas, and AI-agent projects specifically because that's what I have direct production experience with and could write honestly about. If you need a Python or TypeScript starter, the structure of the Go one is directly portable — most buyers fork and adapt in 15 minutes.
+The 3 `CLAUDE.md` starters cover Go services, Elixir umbrellas, and AI-agent projects specifically because that's what I have direct production experience with and could write honestly about. If you need a Python or TypeScript starter, the structure of the Go one is directly portable — most people fork and adapt in 15 minutes.
 
 ## What does "lifetime updates" actually mean?
 
-When I add new prompts, refine existing ones, or update starters for a new Claude/Cursor version, you get them. Forever. No re-buy, no subscription.
+When I add new prompts, refine existing ones, or update starters for a new Claude/Cursor version, you get them. Forever. No re-download nag, no subscription.
 
-I add to the Vault roughly monthly. Recent buyers got 7 new prompts and updated `.cursorrules` files in the last drop.
-
-## What if I don't like it?
-
-7-day refund, no questions. Email me, I send the money back, you keep everything. If something didn't click for you I'd rather know what and fix it than have you stew.
+I add to the Vault roughly monthly. Recent drops: a security review prompt, a "is this PR safe to revert?" prompt, and an Ecto migration safety prompt.
 
 ## Will the next version of Claude make these obsolete?
 
@@ -65,13 +59,11 @@ A copy-to-your-workspace Notion database with all 50 prompts, organized three wa
 - By **tool** (works in Claude Code, Cursor, Codex, generic)
 - By **frequency** (daily / weekly / situational)
 
-Plus a "how I'm using this today" log so you can track which prompts you actually reach for. You can fork it, share it within your team, or keep it private — your workspace.
+Plus a "how I'm using this today" log so you can track which prompts you actually reach for. Fork it, share it within your team, or keep it private — your workspace.
 
-## Can I use these at work? Commercial license?
+## Can I use these at work? Share them with my team?
 
-Yes. The Vault is licensed for personal *and* commercial use. You can use the prompts in your day job, share the `.cursorrules` and `CLAUDE.md` files with your team, and check them into your company repos. The only thing you can't do is resell the Vault itself or redistribute it publicly.
-
-If your company wants a team license for 10+ engineers with a shared Notion workspace, email me — I have a team rate.
+Yes — personal and commercial use, no restrictions. Use the prompts in your day job, share the `.cursorrules` and `CLAUDE.md` files with your team, check them into your company repos. The only thing not allowed is repackaging the Vault and reselling it as your own.
 
 ## Who's the author? Why should I trust this?
 
@@ -83,16 +75,16 @@ More background: [sublimecoding.com](https://sublimecoding.com) · [@sublimecode
 
 ## Will you write more prompts?
 
-Yes, roughly monthly drops. Recent additions: a security review prompt, a "is this PR safe to revert?" prompt, and an Ecto migration safety prompt. Buyers get them all automatically.
+Yes, roughly monthly drops. Recent additions: a security review prompt, a "is this PR safe to revert?" prompt, and an Ecto migration safety prompt.
 
-If there's a category you wish the Vault covered better, email me — buyer requests jump the queue.
+If there's a category you wish the Vault covered better, email me — requests jump the queue.
 
 ---
 
 ## Ready?
 
-**$39 founders edition** (first 50 buyers, then $49) · 7-day refund · lifetime updates · no app, no login.
+Free · lifetime updates · no app, no login.
 
 → **[Get the Vault](https://sublimecoding.com/vault)**
 
-Still on the fence? [Try the 5 free sample prompts](./prompts) first.
+Or [try the 15 free sample prompts](./prompts) right here first.

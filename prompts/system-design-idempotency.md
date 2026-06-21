@@ -1,35 +1,36 @@
-# System Design — Idempotent Endpoint
+# System Design — Design Idempotent APIs
 
-A Claude Code / Cursor prompt for designing idempotent endpoints that survive real-world client retries — payments, webhooks, mutation APIs.
+A staff-level System Design prompt for Claude Code, Cursor, and other AI coding assistants.
 
-**Use when:** Designing any write endpoint that a client might retry — payments, webhooks, mutation APIs, anything that crosses a network you don't own.
+**Use it when:** Any API that mutates state and might be retried (i.e. all of them).
 
-**Why it works:** "Just add an idempotency key" is the answer that gets you 60% of the way there and silently leaks money in production. This prompt forces the design conversation past the easy part.
+**Why it works:** Idempotency is a category, not a feature. Walking through retry scenarios + strategy fit + concurrency catches the "I added a unique constraint and called it a day" mistake.
 
 ---
 
 ```
-Design an idempotent version of this endpoint. Assume the caller will retry on any 5xx, network timeout, or unclear response — because they will.
+Design idempotency for this operation.
 
-Cover:
-1. Idempotency key: who generates it (client vs. server), how long it's valid, where it's stored, and what happens on collision with a different request body.
-2. The exact state machine for a single key: first request, in-flight retry, completed retry, failed retry. What does each return?
-3. Storage: which table, which index, which TTL, and how this scales when the endpoint takes 1K req/s.
-4. Failure modes I'm probably ignoring: partial writes, dual-region replication lag, key reuse across tenants, garbage collection of old keys.
-5. The smallest test suite that proves the implementation is actually idempotent under retry, not just "looks idempotent in the happy path."
+Operation:
+<describe>
 
-ENDPOINT:
-<paste contract / handler here>
+Walk through:
+1. The retry scenarios that produce duplicates (network, timeout, client retry, queue redelivery).
+2. The idempotency strategy options:
+   - Idempotency key (header), server caches result by key
+   - Natural key (e.g. order_id from client)
+   - Optimistic locking (version)
+   - Conditional writes (compare-and-set)
+3. The right strategy for THIS operation, with reasoning.
+4. Storage: where the idempotency record lives, TTL, what's stored (full response? hash?).
+5. Concurrency: what happens if two retries arrive at the same time?
+6. The contract: what HTTP status do we return on a replay (200 same body? 409? 304?).
 ```
 
 ---
 
-### Want the other 49?
+### All 50 prompts — free
 
-This is one of 5 sample prompts from **[The Senior Engineer's AI Prompt Vault](https://sublimecoding.com/vault)** — 50 production-tested prompts for Claude Code and Cursor, plus 5 `.cursorrules` files and 3 `CLAUDE.md` starters (Go, Elixir, AI agents).
+This is one of 15 sample prompts from **[The Senior Engineer's AI Prompt Vault](https://sublimecoding.com/vault)** — 50 production-tested prompts for Claude Code and Cursor, plus 5 `.cursorrules` files and 3 `CLAUDE.md` starters (Go, Elixir, AI agents). Free, no login.
 
-**$39 founders edition** (first 50 buyers, then $49) · 7-day refund · lifetime updates · no app, no login.
-
-→ **[Get the Vault](https://sublimecoding.com/vault)**
-
-Other free samples: [code review](./code-review-blast-radius.md) · [debugging](./debugging-hypothesis-driven.md) · [refactoring](./refactoring-long-functions.md) · [PR descriptions](./docs-pr-description.md)
+→ **[Get the full Vault, free](https://sublimecoding.com/vault)**  ·  **[← all 15 sample prompts](./README.md)**

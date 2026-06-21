@@ -1,35 +1,47 @@
-## Sample prompts from The Senior Engineer's AI Prompt Vault
+# Free Claude Code & Cursor Prompts for Senior Engineers
 
-Five prompts pulled from the [Vault](https://sublimecoding.com/vault) — one from each of the five categories. They run as-is in Claude Code, Cursor, or any coding assistant that takes a system prompt or chat message.
+15 sample prompts from **[The Senior Engineer's AI Prompt Vault](https://sublimecoding.com/vault)** — production-tested prompts for Claude Code, Cursor, and other AI coding assistants. Each one encodes how a staff engineer actually uses AI: forcing structured thinking over pattern-matched answers, naming the failure modes that matter, and making the model commit instead of hedge.
 
-Each one encodes how I actually use AI as a staff engineer: forcing structured thinking instead of pattern-matched answers, naming the failure modes I care about, and making the model commit to a recommendation instead of hedging.
+The full Vault — all 50 prompts, 5 `.cursorrules` files, and 3 `CLAUDE.md` starters (Go, Elixir, AI-agent projects) — is **[free on sublimecoding.com](https://sublimecoding.com/vault)**.
 
-### What's here
+## The prompts
 
-| Category | Prompt |
-|---|---|
-| Code Review | [Blast Radius](./code-review-blast-radius.md) |
-| Debugging | [Hypothesis-Driven Root Cause](./debugging-hypothesis-driven.md) |
-| Refactoring | [Long Functions](./refactoring-long-functions.md) |
-| System Design | [Idempotent Endpoint](./system-design-idempotency.md) |
-| Docs & PRs | [High-Signal PR Description](./docs-pr-description.md) |
+### Code Review
 
-### What's in the full Vault
+- **[Blast Radius Analysis](./code-review-blast-radius.md)** — Before merging a PR that touches shared infrastructure.
+- **[Security-First Review](./code-review-security-first.md)** — Before merging anything that touches auth, input handling, or external IO.
+- **[Database Migration Safety Review](./code-review-migration-safety.md)** — Reviewing any DDL change against a live, large production database.
 
-- 50 prompts (10 per category)
-- 5 `.cursorrules` files (one per category)
-- 3 `CLAUDE.md` starters: Go services, Elixir umbrellas, AI agent projects
-- Notion blueprint with category, tool, and usage views
-- Lifetime updates · 7-day refund
+### Debugging
 
-**$39 founders edition** — first 50 buyers, then $49.
+- **[Hypothesis-Driven Debugging](./debugging-hypothesis-driven.md)** — When you've been staring at a bug for 30 minutes and need a reset.
+- **[Reproduce a Race Condition Reliably](./debugging-race-condition.md)** — When the bug appears once a week in production but never on your laptop.
+- **[Production Incident: First 10 Minutes](./debugging-production-incident.md)** — Page just fired. You're alone. What now.
 
-→ **[Get the Vault](https://sublimecoding.com/vault)**
+### Refactoring
+
+- **[Decompose a Long Function the Right Way](./refactoring-long-functions.md)** — 200-line function that does sequential things.
+- **[Make Illegal States Unrepresentable](./refactoring-illegal-states.md)** — When a struct has 4 optional fields and only some combos are valid.
+- **[Untangle a God Class](./refactoring-god-class.md)** — 1500-line UserService that does everything.
+
+### System Design
+
+- **[Design Idempotent APIs](./system-design-idempotency.md)** — Any API that mutates state and might be retried (i.e. all of them).
+- **[Pick the Right Queue](./system-design-pick-a-queue.md)** — When you need async processing and have to choose between Kafka, SQS, Pub/Sub, RabbitMQ, or a DB-backed queue.
+- **[Design a Rate Limiter](./system-design-rate-limiter.md)** — Adding rate limits to a public or partner API.
+
+### Docs & PRs
+
+- **[PR Description from Diff](./docs-pr-description.md)** — Same as code-review-10, used for self-authoring not review.
+- **[Architecture Decision Record](./docs-adr.md)** — When a non-trivial decision deserves a written record.
+- **[Postmortem Draft from Incident Notes](./docs-postmortem.md)** — Writing the postmortem the day after, while context is fresh.
+
+## How to use these
+
+Drop the prompt into your chat or system prompt. Replace the `<paste here>` marker with your diff, function, endpoint, or context. Most are tuned to refuse hedging — if the model gives you a wishy-washy answer, paste the prompt again with "Pick one and commit." appended.
+
+These prompts assume you've done the basics: written the failing test, run the linter, read the error twice. They're for the part where the work is actually hard.
 
 ---
 
-### How to use these
-
-Drop the prompt into your chat or system prompt. Replace the `<paste here>` marker with the diff, function, endpoint, or context. Most are tuned to refuse hedging — if the model gives you a wishy-washy answer, paste the prompt again with "Pick one and commit." appended.
-
-These prompts assume you've done the basics: written the failing test, run the linter, read the error twice. They're for the part where the work is actually hard.
+**[Get all 50 prompts free →](https://sublimecoding.com/vault)**  ·  **[sublimecoding.com](https://sublimecoding.com)**  ·  **[Consulting](https://sublimecoding.com/consulting)**

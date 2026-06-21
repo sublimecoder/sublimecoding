@@ -1,39 +1,33 @@
-# Code Review — Blast Radius
+# Code Review — Blast Radius Analysis
 
-A Claude Code / Cursor prompt for reviewing diffs the way a staff engineer would — focused on blast radius, not style nits.
+A staff-level Code Review prompt for Claude Code, Cursor, and other AI coding assistants.
 
-**Use when:** Before merging any non-trivial change, especially across module boundaries or near production data paths.
+**Use it when:** Before merging a PR that touches shared infrastructure.
 
-**Why it works:** Style nits are what linters are for. The job of a human (or AI) reviewer is to find the things that page someone at 3am. This prompt skips the bikeshed and forces the model to map the actual failure surface.
+**Why it works:** Forces the model to reason about systems-level consequences instead of nitpicking syntax. The single-sentence verdict prevents the wishy-washy "it depends" output that wastes review time.
 
 ---
 
 ```
-You're reviewing this diff before I merge it. Don't list style nits — I have linters for that.
+Act as a Staff engineer reviewing this diff for blast radius before merge.
 
-Tell me the blast radius: what breaks, who pages, what data moves, and what I can't roll back.
+For each changed file, answer:
+1. What systems, services, or callers depend on this code path?
+2. What's the worst realistic failure mode if this ships broken?
+3. Is the change reversible without a backfill, replay, or schema rollback?
+4. What monitoring would I check in the first 30 minutes after deploy?
 
-Specifically:
-1. Identify every external surface this touches: HTTP endpoints, queue consumers, scheduled jobs, database tables, IAM roles, env vars, feature flags.
-2. For each surface, name the realistic failure modes and which downstream systems feel them first.
-3. Flag anything that's not idempotent and explain why a retry could double-charge, double-send, or double-write.
-4. Flag anything that requires a coordinated rollback (DB migration + code, API contract, cache shape) and tell me the rollback recipe.
-5. End with a single line: "Safe to merge: yes / no / not until X." No hedging.
+End with a single sentence verdict: SAFE TO MERGE, MERGE WITH MITIGATION, or HOLD.
+If MERGE WITH MITIGATION, list the mitigations in priority order.
 
-If you can't tell from the diff alone what's at risk, ask me for the file or context you need. Don't guess.
-
-DIFF:
-<paste diff here>
+Diff:
+<paste diff or attach file>
 ```
 
 ---
 
-### Want the other 49?
+### All 50 prompts — free
 
-This is one of 5 sample prompts from **[The Senior Engineer's AI Prompt Vault](https://sublimecoding.com/vault)** — 50 production-tested prompts for Claude Code and Cursor, plus 5 `.cursorrules` files and 3 `CLAUDE.md` starters (Go, Elixir, AI agents).
+This is one of 15 sample prompts from **[The Senior Engineer's AI Prompt Vault](https://sublimecoding.com/vault)** — 50 production-tested prompts for Claude Code and Cursor, plus 5 `.cursorrules` files and 3 `CLAUDE.md` starters (Go, Elixir, AI agents). Free, no login.
 
-**$39 founders edition** (first 50 buyers, then $49) · 7-day refund · lifetime updates · no app, no login.
-
-→ **[Get the Vault](https://sublimecoding.com/vault)**
-
-Other free samples: [debugging](./debugging-hypothesis-driven.md) · [refactoring](./refactoring-long-functions.md) · [system design](./system-design-idempotency.md) · [PR descriptions](./docs-pr-description.md)
+→ **[Get the full Vault, free](https://sublimecoding.com/vault)**  ·  **[← all 15 sample prompts](./README.md)**
