@@ -16,8 +16,7 @@ Bias toward clarity, observability, and predictable failure.
 
 50 production-grade prompts for Claude and Cursor — code review, debugging, refactoring, system design, and docs. Built at staff level. Plus 5 drop-in `.cursorrules` files, 3 `CLAUDE.md` starters (Go, Elixir, AI agent projects), and a Notion blueprint with category, tool, and usage views.
 
-- **$39 founders edition** — first 50 buyers, then $49
-- 7-day no-questions refund · lifetime updates · no app or login
+- Free · lifetime updates · no app or login
 
 → **[Get the Vault](https://sublimecoding.com/vault)**
 
