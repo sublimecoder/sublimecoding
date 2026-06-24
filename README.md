@@ -1,20 +1,55 @@
-# Free Claude Code & Cursor Prompts for Senior Engineers
+# Claude Code Prompts for Senior Engineers — Free Prompt Library
 
-**[The Senior Engineer's AI Prompt Vault](https://sublimecoding.com/vault)** — 50 production-grade prompts for Claude Code and Cursor, built at staff level: code review, debugging, refactoring, system design, and docs. Plus 5 drop-in `.cursorrules` files, 3 `CLAUDE.md` starters (Go, Elixir, AI-agent projects), and a Notion blueprint with category, tool, and usage views.
+**[The Senior Engineer's AI Prompt Vault](https://sublimecoding.com/vault?utm_source=github&utm_medium=readme_hero&utm_campaign=vault)** by **SublimeCoding** — 50 production-grade prompts for Claude Code and Cursor, built at staff level: code review, debugging, refactoring, system design, and docs. Plus 5 drop-in `.cursorrules` files, 3 `CLAUDE.md` starters (Go, Elixir, AI-agent projects), an `AGENTS.md` starter, and a Notion blueprint.
 
 **Free · no app · no login · lifetime updates.**
 
-→ **[Get the Vault, free](https://sublimecoding.com/vault)**
-
-Want a taste first? **[15 sample prompts in this repo →](./prompts)** · Questions? **[FAQ →](./FAQ.md)**
+→ **[Get the Vault, free](https://sublimecoding.com/vault?utm_source=github&utm_medium=readme_hero&utm_campaign=vault)**  ·  **[15 sample prompts →](./prompts)**  ·  **[FAQ →](./FAQ.md)**
 
 > ⭐ If these prompts save you a production bug or a wasted hour, star the repo — it's how other engineers find it.
 
-Free `CLAUDE.md` starter templates — drop them into any repo and Claude Code understands your conventions on the first message:
+## Contents
 
-- **[Go services →](https://github.com/sublimecoder/claude-md-go-starter)**
-- **[Elixir / Phoenix →](https://github.com/sublimecoder/claude-md-elixir-starter)**
-- **[AI agent projects →](https://github.com/sublimecoder/claude-md-ai-agents-starter)**
+- [Claude Code Prompts](#claude-code-prompts)
+- [Cursor Prompts for Senior Engineers](#cursor-prompts-for-senior-engineers)
+- [AI Code Review Prompts](#ai-code-review-prompts)
+- [CLAUDE.md & AGENTS.md Templates](#claudemd--agentsmd-templates)
+- [.cursorrules for Senior Engineers](#cursorrules-for-senior-engineers)
+
+## Claude Code Prompts
+
+15 free, production-tested Claude Code prompts for senior engineers — [browse them in `/prompts`](./prompts). Each encodes how a staff engineer actually uses AI: structured thinking over pattern-matched answers, named failure modes, and a model that commits instead of hedges.
+
+- **Debugging** — [production incident](./prompts/debugging-production-incident.md), [race condition](./prompts/debugging-race-condition.md), [hypothesis-driven](./prompts/debugging-hypothesis-driven.md)
+- **Refactoring** — [god class](./prompts/refactoring-god-class.md), [illegal states](./prompts/refactoring-illegal-states.md), [long functions](./prompts/refactoring-long-functions.md)
+- **System design** — [idempotency](./prompts/system-design-idempotency.md), [rate limiter](./prompts/system-design-rate-limiter.md), [pick a queue](./prompts/system-design-pick-a-queue.md)
+- **Docs & PRs** — [ADR](./prompts/docs-adr.md), [postmortem](./prompts/docs-postmortem.md), [PR description](./prompts/docs-pr-description.md)
+
+## Cursor Prompts for Senior Engineers
+
+Every prompt here is tool-agnostic — they work in Cursor exactly as they do in Claude Code. For Cursor specifically, start with the [senior-engineer `.cursorrules`](./cursorrules/senior-engineer.cursorrules), then layer in the task prompts above.
+
+## AI Code Review Prompts
+
+Staff-level AI code review prompts that fight the way models actually fail at review:
+
+- **[Security-first review](./prompts/code-review-security-first.md)** — auth, input handling, external I/O.
+- **[Blast radius analysis](./prompts/code-review-blast-radius.md)** — before merging changes to shared infrastructure.
+- **[Database migration safety](./prompts/code-review-migration-safety.md)** — DDL against a live, large production DB.
+
+## CLAUDE.md & AGENTS.md Templates
+
+- **[`AGENTS.md` starter](./AGENTS.md)** — production-grade agent-instructions template (works as `CLAUDE.md` too).
+- **`CLAUDE.md` starters** — drop them into any repo and the agent understands your conventions on the first message:
+  - **[Go services →](https://github.com/sublimecoder/claude-md-go-starter)**
+  - **[Elixir / Phoenix →](https://github.com/sublimecoder/claude-md-elixir-starter)**
+  - **[AI agent projects →](https://github.com/sublimecoder/claude-md-ai-agents-starter)**
+
+## .cursorrules for Senior Engineers
+
+- **[senior-engineer.cursorrules](./cursorrules/senior-engineer.cursorrules)** — a staff-level baseline ruleset for Cursor. The full Vault adds 4 more (`.cursorrules` for Go, Elixir, security, and AI-agent projects).
+
+→ **[Get all 50 prompts + every `.cursorrules` file, free](https://sublimecoding.com/vault?utm_source=github&utm_medium=readme_body&utm_campaign=vault)**
 
 ---
 
