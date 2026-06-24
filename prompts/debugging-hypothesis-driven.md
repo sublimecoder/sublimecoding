@@ -1,6 +1,6 @@
-# Debugging — Hypothesis-Driven Debugging
+# Claude Code Debugging Prompt — Hypothesis-Driven
 
-A staff-level Debugging prompt for Claude Code, Cursor, and other AI coding assistants.
+A staff-level hypothesis-driven debugging prompt for Claude Code, Cursor, and other AI coding assistants — when you've stared at a bug for 30 minutes and need a reset.
 
 **Use it when:** When you've been staring at a bug for 30 minutes and need a reset.
 

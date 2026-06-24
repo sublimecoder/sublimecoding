@@ -1,6 +1,6 @@
-# Debugging — Reproduce a Race Condition Reliably
+# Claude Code Race Condition Debugging Prompt
 
-A staff-level Debugging prompt for Claude Code, Cursor, and other AI coding assistants.
+A staff-level race condition debugging prompt for Claude Code, Cursor, and other AI coding assistants — reproduce the bug that shows up weekly in prod but never on your laptop.
 
 **Use it when:** When the bug appears once a week in production but never on your laptop.
 

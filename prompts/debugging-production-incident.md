@@ -1,6 +1,6 @@
-# Debugging — Production Incident: First 10 Minutes
+# Claude Code Production Debugging Prompt
 
-A staff-level Debugging prompt for Claude Code, Cursor, and other AI coding assistants.
+A staff-level production debugging prompt for Claude Code, Cursor, and other AI coding assistants — the first 10 minutes after a page fires and you're alone.
 
 **Use it when:** Page just fired. You're alone. What now.
 
