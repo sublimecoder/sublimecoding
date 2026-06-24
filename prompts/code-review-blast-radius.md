@@ -1,6 +1,6 @@
-# Code Review — Blast Radius Analysis
+# AI Code Review Prompt — Blast Radius Analysis
 
-A staff-level Code Review prompt for Claude Code, Cursor, and other AI coding assistants.
+A staff-level blast radius analysis prompt for Claude Code, Cursor, and other AI coding assistants — before merging a PR that touches shared infrastructure.
 
 **Use it when:** Before merging a PR that touches shared infrastructure.
 

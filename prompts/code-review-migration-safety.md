@@ -1,6 +1,6 @@
-# Code Review — Database Migration Safety Review
+# Claude Code Migration Safety Review Prompt
 
-A staff-level Code Review prompt for Claude Code, Cursor, and other AI coding assistants.
+A staff-level database migration safety review prompt for Claude Code, Cursor, and other AI coding assistants — for any DDL change against a live, large production database.
 
 **Use it when:** Reviewing any DDL change against a live, large production database.
 

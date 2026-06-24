@@ -1,6 +1,6 @@
-# Code Review — Security-First Review
+# Claude Code Security Review Prompt
 
-A staff-level Code Review prompt for Claude Code, Cursor, and other AI coding assistants.
+A staff-level security-first code review prompt for Claude Code, Cursor, and other AI coding assistants — run it before merging anything that touches auth, input handling, or external I/O.
 
 **Use it when:** Before merging anything that touches auth, input handling, or external IO.
 
