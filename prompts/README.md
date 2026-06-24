@@ -1,8 +1,8 @@
 # Free Claude Code & Cursor Prompts for Senior Engineers
 
-15 sample prompts from **[The Senior Engineer's AI Prompt Vault](https://sublimecoding.com/vault)** — production-tested prompts for Claude Code, Cursor, and other AI coding assistants. Each one encodes how a staff engineer actually uses AI: forcing structured thinking over pattern-matched answers, naming the failure modes that matter, and making the model commit instead of hedge.
+15 sample prompts from **[The Senior Engineer's AI Prompt Vault](https://sublimecoding.com/vault?utm_source=github&utm_medium=prompts_index&utm_campaign=vault)** — production-tested prompts for Claude Code, Cursor, and other AI coding assistants. Each one encodes how a staff engineer actually uses AI: forcing structured thinking over pattern-matched answers, naming the failure modes that matter, and making the model commit instead of hedge.
 
-The full Vault — all 50 prompts, 5 `.cursorrules` files, and 3 `CLAUDE.md` starters (Go, Elixir, AI-agent projects) — is **[free on sublimecoding.com](https://sublimecoding.com/vault)**.
+The full Vault — all 50 prompts, 5 `.cursorrules` files, and 3 `CLAUDE.md` starters (Go, Elixir, AI-agent projects) — is **[free on sublimecoding.com](https://sublimecoding.com/vault?utm_source=github&utm_medium=prompts_index&utm_campaign=vault)**.
 
 ## The prompts
 
@@ -44,4 +44,4 @@ These prompts assume you've done the basics: written the failing test, run the l
 
 ---
 
-**[Get all 50 prompts free →](https://sublimecoding.com/vault)**  ·  **[sublimecoding.com](https://sublimecoding.com)**  ·  **[Consulting](https://sublimecoding.com/consulting)**
+**[Get all 50 prompts free →](https://sublimecoding.com/vault?utm_source=github&utm_medium=prompts_index&utm_campaign=vault)**  ·  **[sublimecoding.com](https://sublimecoding.com?utm_source=github&utm_medium=prompts_index&utm_campaign=brand)**  ·  **[Consulting](https://sublimecoding.com/consulting?utm_source=github&utm_medium=prompts_index&utm_campaign=consulting)**
