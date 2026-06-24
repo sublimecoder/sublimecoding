@@ -1,6 +1,6 @@
-# Docs & PRs — Architecture Decision Record
+# Claude Code ADR Prompt — Architecture Decision Record
 
-A staff-level Docs & PRs prompt for Claude Code, Cursor, and other AI coding assistants.
+A staff-level architecture decision record (ADR) prompt for Claude Code, Cursor, and other AI coding assistants — when a non-trivial decision deserves a written record.
 
 **Use it when:** When a non-trivial decision deserves a written record.
 

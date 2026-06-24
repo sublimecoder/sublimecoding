@@ -1,6 +1,6 @@
-# Docs & PRs — Postmortem Draft from Incident Notes
+# Claude Code Postmortem Prompt
 
-A staff-level Docs & PRs prompt for Claude Code, Cursor, and other AI coding assistants.
+A staff-level incident postmortem prompt for Claude Code, Cursor, and other AI coding assistants — draft the postmortem the day after, while context is fresh.
 
 **Use it when:** Writing the postmortem the day after, while context is fresh.
 

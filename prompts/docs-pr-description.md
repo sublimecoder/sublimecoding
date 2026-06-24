@@ -1,6 +1,6 @@
-# Docs & PRs — PR Description from Diff
+# Claude Code PR Description Prompt
 
-A staff-level Docs & PRs prompt for Claude Code, Cursor, and other AI coding assistants.
+A staff-level PR description prompt for Claude Code, Cursor, and other AI coding assistants — generate a reviewable PR description from your diff.
 
 **Use it when:** Same as code-review-10, used for self-authoring not review.
 
