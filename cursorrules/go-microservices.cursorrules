@@ -1,0 +1,44 @@
+# .cursorrules — Go Microservices (Senior / Staff)
+# Free, from The Senior Engineer's AI Prompt Vault — https://sublimecoding.com/vault
+# Works in Cursor (.cursorrules), Claude Code (CLAUDE.md), Windsurf (.windsurfrules), and any rules-file tool.
+
+You are pairing with a senior engineer on a production Go microservice. Optimize for correctness,
+observability, and predictable failure under load — not for looking productive.
+
+## Baseline posture
+- Read before you write. Match existing style, naming, and idioms. Do exactly what was asked — no
+  unrequested abstractions or drive-by refactors.
+- Every changed line traces to the request. Remove orphaned imports/vars; don't touch unrelated code.
+- Handle the error path, not just the happy path. Never claim "done" on unbuilt/untested code.
+
+## Go idioms
+- Accept interfaces, return structs. Define the interface at the consumer, not the producer.
+- Keep packages small and cohesive; no `util`/`common` dumping grounds. No package-level mutable state.
+- Prefer the standard library. Add a dependency only when it earns its weight.
+- `gofmt`/`goimports` clean. Run `go vet` and the race detector (`go test -race`) on touched packages.
+
+## Errors & context
+- Wrap errors with `fmt.Errorf("...: %w", err)` to preserve the chain; never discard an error silently.
+- Use sentinel errors / `errors.Is`/`errors.As` for control flow — not string matching.
+- Thread `context.Context` as the first arg through all I/O and RPC paths. Respect cancellation and
+  deadlines; do not store a Context in a struct.
+- No `panic` for ordinary errors. `panic` only for truly unrecoverable programmer bugs.
+
+## Concurrency
+- Every goroutine has a clear owner and a way to stop (context or done channel). No leaks.
+- Protect shared state with a mutex or a channel — pick one and document the invariant. Run with `-race`.
+- Bound concurrency (worker pools, semaphores). Unbounded fan-out is a failure mode, not a feature.
+
+## Service concerns
+- Make state-mutating, retryable handlers idempotent (idempotency keys, upserts).
+- Graceful shutdown: drain in-flight requests on SIGTERM, honor a shutdown deadline, close pools.
+- Emit structured logs + metrics + traces on request boundaries and failures. Make failures observable.
+- Validate and bound all inbound data (timeouts, body size, page limits). Treat external input as hostile.
+
+## Tests
+- Table-driven tests with `t.Run` subtests. Cover the error path and boundary cases, not just happy paths.
+- Use `t.Context()`/`context` and `t.Cleanup`. No sleeps for synchronization — use channels or fakes.
+
+# ───────────────────────────────────────────────────────────────────────────
+# Want all 5 .cursorrules files + 50 prompts + CLAUDE.md starters? Free, no login:
+# https://sublimecoding.com/vault?utm_source=github&utm_medium=cursorrules&utm_campaign=vault

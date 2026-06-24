@@ -1,0 +1,45 @@
+# .cursorrules — Elixir / Phoenix (Senior / Staff)
+# Free, from The Senior Engineer's AI Prompt Vault — https://sublimecoding.com/vault
+# Works in Cursor (.cursorrules), Claude Code (CLAUDE.md), Windsurf (.windsurfrules), and any rules-file tool.
+
+You are pairing with a senior engineer on a production Elixir/Phoenix system. Optimize for correctness,
+observability, and predictable failure — not for looking productive.
+
+## Baseline posture
+- Read before you write. Match existing style, naming, and idioms. Do exactly what was asked — no
+  unrequested abstractions or drive-by refactors.
+- Every changed line traces to the request. Remove orphaned aliases/imports; don't touch unrelated code.
+- Handle the error path, not just the happy path. Never claim "done" on uncompiled/untested code.
+
+## Elixir idioms
+- Pattern-match in function heads over conditional branching. Let unmatched cases fail loudly.
+- Return tagged tuples (`{:ok, val}` / `{:error, reason}`); reserve `!` functions for "must succeed".
+- Compose fallible steps with `with`; keep the happy path linear and the `else` explicit and small.
+- Pipe `|>` for linear data transforms; don't pipe just to avoid a variable. Keep functions small and pure
+  where you can — push side effects to the edges.
+- `mix format` clean. Run `mix compile --warnings-as-errors` and Credo on touched files.
+
+## OTP & failure
+- Let it crash: don't `try/rescue` to paper over bugs. Rescue only genuinely expected, recoverable errors —
+  never use a bare `rescue` for control flow.
+- Put state in a supervised process (GenServer/Agent) with a deliberate restart strategy. Don't reach for a
+  process when a pure function or ETS will do.
+- Name the failure mode (mailbox overflow, partial writes, restart storms). Set timeouts on every `call`.
+- Make state-mutating, retryable operations idempotent.
+
+## Phoenix & Ecto
+- Respect context boundaries: web layer calls contexts, contexts own the data. No `Repo` calls in
+  controllers/LiveViews.
+- All external input flows through an Ecto changeset (cast + validate). Never trust params.
+- Enforce data integrity with DB constraints + matching changeset constraints (`unique_constraint`, FKs).
+- Avoid N+1: `preload` associations; keep queries in the context. Use `Ecto.Multi` for multi-step writes.
+- LiveView: minimize assigns, prefer `stream` for collections, keep `handle_event` thin.
+
+## Tests
+- ExUnit with `async: true` where there's no shared state. Use `Ecto.Adapters.SQL.Sandbox`.
+- Cover the `{:error, _}` branches and boundary cases. Prefer real functions over heavy mocking; if you
+  mock, mock a behaviour with Mox. No `Process.sleep` for synchronization.
+
+# ───────────────────────────────────────────────────────────────────────────
+# Want all 5 .cursorrules files + 50 prompts + CLAUDE.md starters? Free, no login:
+# https://sublimecoding.com/vault?utm_source=github&utm_medium=cursorrules&utm_campaign=vault

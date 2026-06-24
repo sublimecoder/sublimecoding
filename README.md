@@ -47,7 +47,14 @@ Staff-level AI code review prompts that fight the way models actually fail at re
 
 ## .cursorrules for Senior Engineers
 
-- **[senior-engineer.cursorrules](./cursorrules/senior-engineer.cursorrules)** — a staff-level baseline ruleset for Cursor. The full Vault adds 4 more (`.cursorrules` for Go, Elixir, security, and AI-agent projects).
+Free, staff-level `.cursorrules` — each works in Cursor, Claude Code, Windsurf, or any rules-file tool:
+
+- **[senior-engineer.cursorrules](./cursorrules/senior-engineer.cursorrules)** — the baseline posture: read-first, trace every change, handle the error path, verify before "done".
+- **[go-microservices.cursorrules](./cursorrules/go-microservices.cursorrules)** — Go services: context propagation, error wrapping, bounded concurrency, graceful shutdown, table tests.
+- **[elixir.cursorrules](./cursorrules/elixir.cursorrules)** — Elixir/Phoenix: OTP supervision, `with` pipelines, Ecto changeset discipline, context boundaries, let-it-crash.
+- **[security.cursorrules](./cursorrules/security.cursorrules)** — production security: untrusted-input handling, secrets hygiene, authz at every boundary, prompt-injection containment.
+
+The Vault bundles all of these (plus the AI-agent ruleset), the 50 prompts, and the `CLAUDE.md` starters in one download.
 
 → **[Get all 50 prompts + every `.cursorrules` file, free](https://sublimecoding.com/vault?utm_source=github&utm_medium=readme_body&utm_campaign=vault)**
 
