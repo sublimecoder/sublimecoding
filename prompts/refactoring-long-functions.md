@@ -1,6 +1,6 @@
-# Refactoring — Decompose a Long Function the Right Way
+# Claude Code Refactoring Prompt — Decompose a Long Function
 
-A staff-level Refactoring prompt for Claude Code, Cursor, and other AI coding assistants.
+A staff-level long-function refactoring prompt for Claude Code, Cursor, and other AI coding assistants — decompose a 200-line function that does sequential things.
 
 **Use it when:** 200-line function that does sequential things.
 

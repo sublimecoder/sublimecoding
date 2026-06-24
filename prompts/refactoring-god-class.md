@@ -1,6 +1,6 @@
-# Refactoring — Untangle a God Class
+# Claude Code God Class Refactoring Prompt
 
-A staff-level Refactoring prompt for Claude Code, Cursor, and other AI coding assistants.
+A staff-level god class refactoring prompt for Claude Code, Cursor, and other AI coding assistants — untangle a 1500-line service that does everything.
 
 **Use it when:** 1500-line UserService that does everything.
 

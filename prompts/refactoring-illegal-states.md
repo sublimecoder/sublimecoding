@@ -1,6 +1,6 @@
-# Refactoring — Make Illegal States Unrepresentable
+# Claude Code Refactoring Prompt — Make Illegal States Unrepresentable
 
-A staff-level Refactoring prompt for Claude Code, Cursor, and other AI coding assistants.
+A staff-level refactoring prompt for Claude Code, Cursor, and other AI coding assistants — make illegal states unrepresentable when a struct has optional fields and only some combos are valid.
 
 **Use it when:** When a struct has 4 optional fields and only some combos are valid.
 
