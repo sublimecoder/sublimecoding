@@ -1,6 +1,6 @@
-# System Design — Design a Rate Limiter
+# Claude Code Rate Limiter Design Prompt
 
-A staff-level System Design prompt for Claude Code, Cursor, and other AI coding assistants.
+A staff-level rate limiter design prompt for Claude Code, Cursor, and other AI coding assistants — adding rate limits to a public or partner API.
 
 **Use it when:** Adding rate limits to a public or partner API.
 

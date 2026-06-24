@@ -1,6 +1,6 @@
-# System Design — Pick the Right Queue
+# Claude Code System Design Prompt — Pick the Right Queue
 
-A staff-level System Design prompt for Claude Code, Cursor, and other AI coding assistants.
+A staff-level system design prompt for Claude Code, Cursor, and other AI coding assistants — choose between Kafka, SQS, Pub/Sub, RabbitMQ, or a DB-backed queue.
 
 **Use it when:** When you need async processing and have to choose between Kafka, SQS, Pub/Sub, RabbitMQ, or a DB-backed queue.
 

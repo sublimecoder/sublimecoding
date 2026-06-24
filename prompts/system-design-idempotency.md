@@ -1,6 +1,6 @@
-# System Design — Design Idempotent APIs
+# Claude Code Idempotency Design Prompt
 
-A staff-level System Design prompt for Claude Code, Cursor, and other AI coding assistants.
+A staff-level idempotency design prompt for Claude Code, Cursor, and other AI coding assistants — for any API that mutates state and might be retried.
 
 **Use it when:** Any API that mutates state and might be retried (i.e. all of them).
 
