@@ -109,7 +109,8 @@ For every response, include:
 * Write simple, readable code — clarity matters more than cleverness  
 * Make one change at a time  
 * Don't change code that isn't related to the current task  
-* Don't over-engineer — build exactly what's needed, nothing more
+* Don't over-engineer — build exactly what's needed, nothing more  
+* Find the root cause — no temporary patches or band-aid fixes (senior-developer standards)
 
 ---
 
@@ -128,6 +129,7 @@ Before marking any task as done:
 * Run the relevant script and confirm it exits successfully  
 * Check for errors, warnings, or unexpected output  
 * Verify that existing behaviour wasn't broken by the change  
+* Diff behaviour between the current code and your changes when relevant  
 * Test the happy path AND the error path  
 * Confirm data is passed correctly between steps
 
@@ -142,6 +144,8 @@ Bias toward caution over speed. Use judgment on trivial tasks.
 **No impossible-case error handling.** Don't validate inputs that can't occur. Don't add abstractions, flexibility, or config that wasn't requested.
 
 **Match existing style** even when you'd write it differently.
+
+**Just fix reported bugs.** Given a bug report, failing test, or failing CI, point at the logs/errors and resolve it directly — no hand-holding needed.
 
 **Orphans rule:** remove imports/variables/functions your changes made unused. Do NOT touch pre-existing dead code — mention it instead. Every changed line must trace to the request.
 
@@ -179,6 +183,9 @@ Before any task touching more than 3 files:
 1. Describe the plan in text
 2. List files you'll touch and why
 3. Wait for approval before running commands
+
+Use subagents liberally for research, exploration, and parallel analysis — one task per subagent — to keep the main context window clean.
+If a task goes sideways mid-flight, STOP and re-plan immediately instead of pushing through. Use plan mode for verification steps too, not just building.
 
 # Context Hygiene
 
