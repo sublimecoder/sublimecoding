@@ -81,6 +81,11 @@ Bias toward clarity, observability, and predictable failure. The prompts here ca
 #### Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Build an LLM Wiki Your Coding Agent Actually Reads](https://sublimecoding.com/blog/build-an-llm-wiki-for-your-agent)
+- [Your CLAUDE.md Is the Onboarding Doc You Never Wrote](https://sublimecoding.com/blog/claude-md-onboarding-doc)
+- [AI Made Tokens Cheap. It&#39;s Making Hardware Costly.](https://sublimecoding.com/blog/ai-tax-hardware-costs)
+- [The Perfect Hire Is Killing Your Team](https://sublimecoding.com/blog/perfect-hire-killing-your-team)
+- [The AI Coding Agent Bugs I Catch Every Week](https://sublimecoding.com/blog/things-ai-coding-agents-get-wrong)
 <!-- BLOG-POST-LIST:END -->
 
 → More at **[sublimecoding.com/blog](https://sublimecoding.com/blog)**
