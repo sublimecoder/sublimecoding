@@ -17,5 +17,7 @@ jobs:
       - uses: gautamkrishnar/blog-post-workflow@v1
         with:
           feed_list: "https://sublimecoding.com/rss.xml"
+          # Site WAF returns 406 for the default Accept: application/rss+xml; */* passes.
+          accept_header: "*/*"
           max_post_count: 5
           commit_message: "chore: refresh latest blog posts in README"
