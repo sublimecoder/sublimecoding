@@ -81,11 +81,11 @@ Bias toward clarity, observability, and predictable failure. The prompts here ca
 #### Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Programming Sucks, Now With Agents](https://sublimecoding.com/blog/programming-sucks-now-with-agents)
 - [Prompt Injection Defense for a 5-Person AI Startup](https://sublimecoding.com/blog/prompt-injection-defense-ai-startup)
 - [Oban as a Durable AI Agent Runtime in Elixir](https://sublimecoding.com/blog/oban-durable-ai-agent-runtime)
 - [Surviving Technical Due Diligence as an AI Founder](https://sublimecoding.com/blog/surviving-technical-due-diligence-ai-founder)
 - [Amazon Let the AI Drive. It Hit a Tree.](https://sublimecoding.com/blog/amazon-let-the-ai-drive)
-- [Build an LLM Wiki Your Coding Agent Actually Reads](https://sublimecoding.com/blog/build-an-llm-wiki-for-your-agent)
 <!-- BLOG-POST-LIST:END -->
 
 → More at **[sublimecoding.com/blog](https://sublimecoding.com/blog)**
