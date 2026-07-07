@@ -83,9 +83,9 @@ Bias toward clarity, observability, and predictable failure. The prompts here ca
 <!-- BLOG-POST-LIST:START -->
 - [Building an AI Memory That Outlives Any Single Agent](https://sublimecoding.com/blog/ai-memory-outlives-any-agent)
 - [The Claude Code Plugin Stack I Actually Run](https://sublimecoding.com/blog/claude-code-plugin-stack)
+- [4,154 Commits in Six Months With AI Agents](https://sublimecoding.com/blog/4154-commits-six-months-ai-agents)
 - [Programming Sucks, Now With Agents](https://sublimecoding.com/blog/programming-sucks-now-with-agents)
 - [Prompt Injection Defense for a 5-Person AI Startup](https://sublimecoding.com/blog/prompt-injection-defense-ai-startup)
-- [Oban as a Durable AI Agent Runtime in Elixir](https://sublimecoding.com/blog/oban-durable-ai-agent-runtime)
 <!-- BLOG-POST-LIST:END -->
 
 → More at **[sublimecoding.com/blog](https://sublimecoding.com/blog)**
