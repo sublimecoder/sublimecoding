@@ -81,11 +81,11 @@ Bias toward clarity, observability, and predictable failure. The prompts here ca
 #### Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [What an AI Agent Postmortem Should Contain](https://sublimecoding.com/blog/ai-agent-postmortem)
 - [Why Auto-Filled Security Questionnaires Kill AI Deals](https://sublimecoding.com/blog/enterprise-security-reviews-ai-startups)
 - [Building an AI Memory That Outlives Any Single Agent](https://sublimecoding.com/blog/ai-memory-outlives-any-agent)
 - [The Claude Code Plugin Stack I Actually Run](https://sublimecoding.com/blog/claude-code-plugin-stack)
 - [4,154 Commits in Six Months With AI Agents](https://sublimecoding.com/blog/4154-commits-six-months-ai-agents)
-- [Programming Sucks, Now With Agents](https://sublimecoding.com/blog/programming-sucks-now-with-agents)
 <!-- BLOG-POST-LIST:END -->
 
 → More at **[sublimecoding.com/blog](https://sublimecoding.com/blog)**
