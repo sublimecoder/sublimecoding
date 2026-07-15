@@ -81,11 +81,11 @@ Bias toward clarity, observability, and predictable failure. The prompts here ca
 #### Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Streaming LLM Tokens in LiveView, the 2026 Way](https://sublimecoding.com/blog/streaming-llm-tokens-liveview-2026)
 - [Trust Is the Operating System](https://sublimecoding.com/blog/trust-is-the-operating-system)
 - [The 17x Discount Hiding in Your AI Coding Bill](https://sublimecoding.com/blog/ai-coding-agent-costs-real-numbers)
 - [A Scared Team Is Your Biggest Attack Surface](https://sublimecoding.com/blog/psychological-safety-security-control)
 - [What Cyber Insurance Underwriters Ask AI Startups](https://sublimecoding.com/blog/cyber-insurance-ai-startups)
-- [Build an MCP Server in Phoenix With Hermes](https://sublimecoding.com/blog/build-mcp-server-phoenix-hermes)
 <!-- BLOG-POST-LIST:END -->
 
 → More at **[sublimecoding.com/blog](https://sublimecoding.com/blog)**
