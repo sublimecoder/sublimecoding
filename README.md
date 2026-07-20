@@ -81,11 +81,11 @@ Bias toward clarity, observability, and predictable failure. The prompts here ca
 #### Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [The Onboarding Playbook for an Agent-Heavy Codebase](https://sublimecoding.com/blog/onboarding-agent-heavy-codebase)
 - [TDD With Claude Code in Elixir: What Holds Up](https://sublimecoding.com/blog/tdd-claude-code-elixir)
 - [Security Engineer or vCISO? Your First Hire, by Stage](https://sublimecoding.com/blog/security-engineer-or-vciso-first-hire)
 - [What I Put in CLAUDE.md After 50 Commits With It](https://sublimecoding.com/blog/claude-md-after-50-commits)
 - [Secrets Management for AI Agents on Small Teams](https://sublimecoding.com/blog/ai-agent-secrets-management)
-- [Streaming LLM Tokens in LiveView, the 2026 Way](https://sublimecoding.com/blog/streaming-llm-tokens-liveview-2026)
 <!-- BLOG-POST-LIST:END -->
 
 → More at **[sublimecoding.com/blog](https://sublimecoding.com/blog)**
