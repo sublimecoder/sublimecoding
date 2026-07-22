@@ -81,11 +81,11 @@ Bias toward clarity, observability, and predictable failure. The prompts here ca
 #### Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [12 Phoenix LiveView Patterns for Production](https://sublimecoding.com/blog/phoenix-liveview-patterns-production)
 - [Testing AI Agent Outputs in Elixir with ExUnit](https://sublimecoding.com/blog/testing-ai-agent-outputs-exunit)
 - [The Onboarding Playbook for an Agent-Heavy Codebase](https://sublimecoding.com/blog/onboarding-agent-heavy-codebase)
 - [TDD With Claude Code in Elixir: What Holds Up](https://sublimecoding.com/blog/tdd-claude-code-elixir)
 - [Security Engineer or vCISO? Your First Hire, by Stage](https://sublimecoding.com/blog/security-engineer-or-vciso-first-hire)
-- [What I Put in CLAUDE.md After 50 Commits With It](https://sublimecoding.com/blog/claude-md-after-50-commits)
 <!-- BLOG-POST-LIST:END -->
 
 → More at **[sublimecoding.com/blog](https://sublimecoding.com/blog)**
