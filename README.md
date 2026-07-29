@@ -4,17 +4,31 @@
 
 **Free · no app · no login · lifetime updates.**
 
+**Prompts were v1.** The next layer is **[AIOS](https://github.com/sublimecoder/aios)** — an open-source, markdown-based memory system that gives coding agents persistent knowledge across sessions. [Jump to AIOS ↓](#aios--persistent-memory-for-coding-agents)
+
 → **[Get the Vault, free](https://sublimecoding.com/vault?utm_source=github&utm_medium=readme_hero&utm_campaign=vault)**  ·  **[15 sample prompts →](./prompts)**  ·  **[FAQ →](./FAQ.md)**
 
 > ⭐ If these prompts save you a production bug or a wasted hour, star the repo — it's how other engineers find it.
 
 ## Contents
 
+- [AIOS — Persistent Memory for Coding Agents](#aios--persistent-memory-for-coding-agents)
 - [Claude Code Prompts](#claude-code-prompts)
 - [Cursor Prompts for Senior Engineers](#cursor-prompts-for-senior-engineers)
 - [AI Code Review Prompts](#ai-code-review-prompts)
 - [CLAUDE.md & AGENTS.md Templates](#claudemd--agentsmd-templates)
 - [.cursorrules for Senior Engineers](#cursorrules-for-senior-engineers)
+
+## AIOS — Persistent Memory for Coding Agents
+
+Well-crafted prompts get you one good session. **[AIOS](https://github.com/sublimecoder/aios)** is what replaced them for me: a git-versioned markdown vault that gives Claude Code (or any agent) memory that survives between sessions — editorial curation instead of vector retrieval.
+
+- **Knowledge Map + Skill Map** — read-first navigation, no embedding search needed
+- **~25 portable skills** — markdown capabilities that work across Claude Code, Cursor, and Codex
+- **Cross-repo wiring** — hooks that connect your code repos to the vault
+- **Write guards + leak auditors** — scope isolation for privacy-sensitive work
+
+→ **[github.com/sublimecoder/aios](https://github.com/sublimecoder/aios)** · [AIOS: An AI Operating System in Plain Markdown](https://sublimecoding.com/blog/aios-ai-operating-system-markdown) · [Building an AI Memory That Outlives Any Single Agent](https://sublimecoding.com/blog/ai-memory-outlives-any-agent)
 
 ## Claude Code Prompts
 
@@ -74,6 +88,8 @@ Bias toward clarity, observability, and predictable failure. The prompts here ca
 
 ### Featured writing
 
+- **[AIOS: An AI Operating System in Plain Markdown](https://sublimecoding.com/blog/aios-ai-operating-system-markdown)** — the git-versioned vault, cross-repo wiring, and nightly ingest loop behind [the AIOS repo](https://github.com/sublimecoder/aios).
+- **[Building an AI Memory That Outlives Any Single Agent](https://sublimecoding.com/blog/ai-memory-outlives-any-agent)** — a portable, git-versioned knowledge layer any agent can read.
 - **[How I Prompt Claude as a Staff Engineer (50 Prompts I Actually Use)](https://sublimecoding.com/blog/staff-engineer-claude-prompts)** — the prompts behind the Vault and how I actually use them.
 - **[Ruflo (formerly Claude Flow): An Honest Deep Dive](https://sublimecoding.com/blog/ruflo-claude-flow-multi-agent-deep-dive)** — 45K+ stars, 700K+ downloads. What it does well, and where it falls down.
 - **[The Claude Code Resource Bible: 46 Tools Worth Knowing in 2026](https://sublimecoding.com/blog/claude-code-resource-bible)** — official tools, MCP servers, agents, automation. Curated, not a link dump.
