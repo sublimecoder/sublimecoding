@@ -97,11 +97,11 @@ Bias toward clarity, observability, and predictable failure. The prompts here ca
 #### Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Detection Got Cheap. Remediation Didn&#39;t.](https://sublimecoding.com/blog/ai-vulnerability-remediation-bottleneck)
+- [The One File Where Your AI Model Names Live](https://sublimecoding.com/blog/model-routing-file-ai-coding-agents)
 - [What a 96% Security Benchmark Actually Measures](https://sublimecoding.com/blog/ai-security-benchmark-what-96-percent-means)
 - [10 Ecto Query Patterns for N+1 and Beyond](https://sublimecoding.com/blog/ecto-query-patterns-n-plus-one)
 - [Isolating Parallel Claude Code Agents in Phoenix](https://sublimecoding.com/blog/parallel-claude-code-agents-phoenix)
-- [What Reverse Acqui-Hires Actually Diligence](https://sublimecoding.com/blog/reverse-acqui-hire-technical-diligence)
-- [The Four Claude Code Hooks I Run on Every Project](https://sublimecoding.com/blog/four-claude-code-hooks)
 <!-- BLOG-POST-LIST:END -->
 
 → More at **[sublimecoding.com/blog](https://sublimecoding.com/blog)**
