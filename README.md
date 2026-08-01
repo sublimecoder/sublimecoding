@@ -97,11 +97,11 @@ Bias toward clarity, observability, and predictable failure. The prompts here ca
 #### Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [AIOS v2: The Scope Is the Filesystem](https://sublimecoding.com/blog/aios-v2-scope-is-the-filesystem)
 - [Jose Valim Is Right: Anthropic&#39;s Incentive Problem](https://sublimecoding.com/blog/jose-valim-anthropic-incentive-problem)
 - [Instrumenting LLM Calls in Phoenix with Telemetry](https://sublimecoding.com/blog/phoenix-llm-telemetry)
 - [Detection Got Cheap. Remediation Didn&#39;t.](https://sublimecoding.com/blog/ai-vulnerability-remediation-bottleneck)
 - [The One File Where Your AI Model Names Live](https://sublimecoding.com/blog/model-routing-file-ai-coding-agents)
-- [What a 96% Security Benchmark Actually Measures](https://sublimecoding.com/blog/ai-security-benchmark-what-96-percent-means)
 <!-- BLOG-POST-LIST:END -->
 
 → More at **[sublimecoding.com/blog](https://sublimecoding.com/blog)**
