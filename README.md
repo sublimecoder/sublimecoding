@@ -97,11 +97,11 @@ Bias toward clarity, observability, and predictable failure. The prompts here ca
 #### Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Multi-Tenant AI SaaS in Phoenix: Isolation That Holds](https://sublimecoding.com/blog/multi-tenant-ai-saas-phoenix)
 - [The Schlep Is the Only Moat Agents Can&#39;t Cross](https://sublimecoding.com/blog/schlep-is-the-moat-agents-cant-cross)
 - [What Four Months of Embedded AI Engineering Ships](https://sublimecoding.com/blog/four-months-embedded-ai-engineering)
 - [Estimating Client Work When Agents Do the Building](https://sublimecoding.com/blog/estimating-client-work-ai-agents)
 - [The Career I Built on Work Nobody Wanted](https://sublimecoding.com/blog/career-built-on-work-nobody-wanted)
-- [Your Coding Agent Has No Reason to Write Good Code](https://sublimecoding.com/blog/why-ai-agents-write-unmaintainable-code)
 <!-- BLOG-POST-LIST:END -->
 
 → More at **[sublimecoding.com/blog](https://sublimecoding.com/blog)**
