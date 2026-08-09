@@ -97,11 +97,11 @@ Bias toward clarity, observability, and predictable failure. The prompts here ca
 #### Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Every Insane Codebase Was Once Rational](https://sublimecoding.com/blog/insane-codebases-were-once-rational)
 - [Nobody Got Replaced. Agents Got Added.](https://sublimecoding.com/blog/nobody-got-replaced-agents-got-added)
 - [What I Check When I Inherit a Vibe-Coded App](https://sublimecoding.com/blog/inheriting-a-vibe-coded-app)
 - [Multi-Tenant AI SaaS in Phoenix: Isolation That Holds](https://sublimecoding.com/blog/multi-tenant-ai-saas-phoenix)
 - [The Schlep Is the Only Moat Agents Can&#39;t Cross](https://sublimecoding.com/blog/schlep-is-the-moat-agents-cant-cross)
-- [What Four Months of Embedded AI Engineering Ships](https://sublimecoding.com/blog/four-months-embedded-ai-engineering)
 <!-- BLOG-POST-LIST:END -->
 
 → More at **[sublimecoding.com/blog](https://sublimecoding.com/blog)**
