@@ -97,11 +97,11 @@ Bias toward clarity, observability, and predictable failure. The prompts here ca
 #### Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Phoenix Secrets: runtime.exs, Fly.io, and LLM Keys](https://sublimecoding.com/blog/phoenix-secrets-runtime-fly)
 - [The Office Mandate Is a Measurement Failure](https://sublimecoding.com/blog/office-mandate-measurement-failure)
 - [Every Insane Codebase Was Once Rational](https://sublimecoding.com/blog/insane-codebases-were-once-rational)
 - [Nobody Got Replaced. Agents Got Added.](https://sublimecoding.com/blog/nobody-got-replaced-agents-got-added)
 - [What I Check When I Inherit a Vibe-Coded App](https://sublimecoding.com/blog/inheriting-a-vibe-coded-app)
-- [Multi-Tenant AI SaaS in Phoenix: Isolation That Holds](https://sublimecoding.com/blog/multi-tenant-ai-saas-phoenix)
 <!-- BLOG-POST-LIST:END -->
 
 → More at **[sublimecoding.com/blog](https://sublimecoding.com/blog)**
