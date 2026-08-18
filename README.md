@@ -97,11 +97,11 @@ Bias toward clarity, observability, and predictable failure. The prompts here ca
 #### Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Structured LLM Output in Elixir: Which Library, When](https://sublimecoding.com/blog/structured-llm-output-elixir)
 - [What Elixir Gives a Coding Harness for Free](https://sublimecoding.com/blog/elixir-coding-harness)
 - [Metering LLM Usage Per Customer in Phoenix](https://sublimecoding.com/blog/metering-llm-usage-phoenix)
 - [Your Junior Dev Leans on the Agent. Good.](https://sublimecoding.com/blog/junior-dev-leaning-on-the-agent)
 - [The Hard Part Was Never the Code. It Was the Theory.](https://sublimecoding.com/blog/code-was-never-the-hard-part-theory-building)
-- [Phoenix Secrets: runtime.exs, Fly.io, and LLM Keys](https://sublimecoding.com/blog/phoenix-secrets-runtime-fly)
 <!-- BLOG-POST-LIST:END -->
 
 → More at **[sublimecoding.com/blog](https://sublimecoding.com/blog)**
