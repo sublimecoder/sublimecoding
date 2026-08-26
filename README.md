@@ -97,11 +97,11 @@ Bias toward clarity, observability, and predictable failure. The prompts here ca
 #### Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [The Agent Evidence Pack for a Security Review](https://sublimecoding.com/blog/agent-evidence-pack-security-review)
 - [Wiring LiveView Uploads to Claude Vision](https://sublimecoding.com/blog/liveview-uploads-claude-vision)
 - [Most Security Controls Assume a Team You Don&#39;t Have](https://sublimecoding.com/blog/security-controls-assume-a-team)
 - [Structured LLM Output in Elixir: Which Library, When](https://sublimecoding.com/blog/structured-llm-output-elixir)
 - [What Elixir Gives a Coding Harness for Free](https://sublimecoding.com/blog/elixir-coding-harness)
-- [Metering LLM Usage Per Customer in Phoenix](https://sublimecoding.com/blog/metering-llm-usage-phoenix)
 <!-- BLOG-POST-LIST:END -->
 
 → More at **[sublimecoding.com/blog](https://sublimecoding.com/blog)**
