@@ -97,11 +97,11 @@ Bias toward clarity, observability, and predictable failure. The prompts here ca
 #### Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Anthropic&#39;s Extreme Scenario Has a Precondition](https://sublimecoding.com/blog/anthropics-extreme-scenario-has-a-precondition)
 - [Validating LLM Tool Call Arguments With Ecto](https://sublimecoding.com/blog/validating-llm-tool-call-arguments-ecto)
 - [Agents Don&#39;t Need Prompts. They Need Managers.](https://sublimecoding.com/blog/agents-dont-need-prompts-they-need-managers)
 - [I Put Omarchy on an M1 MacBook Pro](https://sublimecoding.com/blog/omarchy-asahi-m1-macbook)
 - [I Read Oban&#39;s Source Code So You Don&#39;t Have To](https://sublimecoding.com/blog/oban-source-code-read)
-- [Building an LLM Audit Trail That Passes SOC 2](https://sublimecoding.com/blog/llm-audit-trail-soc2)
 <!-- BLOG-POST-LIST:END -->
 
 → More at **[sublimecoding.com/blog](https://sublimecoding.com/blog)**
