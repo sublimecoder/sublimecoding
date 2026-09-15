@@ -97,11 +97,11 @@ Bias toward clarity, observability, and predictable failure. The prompts here ca
 #### Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [How to Actually Make Money With AI in 2026: An Engineer Ranks 13 Side Hustles](https://sublimecoding.com/blog/ai-side-hustles-ranked-by-an-engineer)
 - [Cisco&#39;s Network Config Engine Is Secretly Erlang](https://sublimecoding.com/blog/cisco-nso-secretly-erlang)
 - [Model Routers Are Vendors. Review Them Like One.](https://sublimecoding.com/blog/model-routers-are-vendors)
 - [Multi-Agent AI Teams Agree Their Way Into Garbage](https://sublimecoding.com/blog/multi-agent-teams-agree-into-garbage)
 - [I Read Omarchy&#39;s AGENTS.md So You Don&#39;t Have To](https://sublimecoding.com/blog/omarchy-agents-md-source-read)
-- [Anthropic&#39;s Extreme Scenario Has a Precondition](https://sublimecoding.com/blog/anthropics-extreme-scenario-has-a-precondition)
 <!-- BLOG-POST-LIST:END -->
 
 → More at **[sublimecoding.com/blog](https://sublimecoding.com/blog)**
