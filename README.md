@@ -97,11 +97,11 @@ Bias toward clarity, observability, and predictable failure. The prompts here ca
 #### Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Omarchy on a Company Laptop: The SOC 2 Verdict](https://sublimecoding.com/blog/omarchy-company-laptop-soc2)
 - [I Graded My Blog Against a 2014 Marketing Course](https://sublimecoding.com/blog/graded-my-blog-against-2014-marketing-course)
 - [Omarchy Shortcuts on a Mac Keyboard: What Changes](https://sublimecoding.com/blog/omarchy-mac-keyboard-shortcuts)
 - [Omarchy Runs Your Coding Agent With the Safety Off](https://sublimecoding.com/blog/omarchy-agent-safety-off)
 - [How to Actually Make Money With AI in 2026: An Engineer Ranks 13 Side Hustles](https://sublimecoding.com/blog/ai-side-hustles-ranked-by-an-engineer)
-- [Cisco&#39;s Network Config Engine Is Secretly Erlang](https://sublimecoding.com/blog/cisco-nso-secretly-erlang)
 <!-- BLOG-POST-LIST:END -->
 
 → More at **[sublimecoding.com/blog](https://sublimecoding.com/blog)**
