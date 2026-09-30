@@ -97,11 +97,11 @@ Bias toward clarity, observability, and predictable failure. The prompts here ca
 #### Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Your Personal Brand Is an Attack Surface](https://sublimecoding.com/blog/personal-brand-is-an-attack-surface)
 - [I Built the Distribution Tools My Blog Needed](https://sublimecoding.com/blog/distribution-stack-launch)
 - [Elixir Libraries Discord and Supabase Open-Sourced](https://sublimecoding.com/blog/discord-supabase-elixir-libraries)
 - [Would I Trust Agents to QA My Daily Driver?](https://sublimecoding.com/blog/agentic-qa-omarchy-trust)
 - [Who Actually Runs Elixir in Production, Fact-Checked](https://sublimecoding.com/blog/elixir-in-production-fact-checked)
-- [DHH&#39;s Rails World 2026 Keynote: Pencils Down, Now What](https://sublimecoding.com/blog/dhh-rails-world-2026-keynote)
 <!-- BLOG-POST-LIST:END -->
 
 → More at **[sublimecoding.com/blog](https://sublimecoding.com/blog)**
