@@ -97,11 +97,11 @@ Bias toward clarity, observability, and predictable failure. The prompts here ca
 #### Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Where AI Belongs in a One-Person Content Operation](https://sublimecoding.com/blog/ai-in-a-one-person-content-operation)
 - [Linux Setup Was a Hazing Ritual. Agents Changed It.](https://sublimecoding.com/blog/linux-setup-hazing-agents)
 - [Narrow Front Door, Visible Back Rooms](https://sublimecoding.com/blog/narrow-front-door-visible-back-rooms)
 - [Adding a Newsletter to a Phoenix Site With No Database](https://sublimecoding.com/blog/newsletter-phoenix-site-no-database)
 - [Your Personal Brand Is an Attack Surface](https://sublimecoding.com/blog/personal-brand-is-an-attack-surface)
-- [I Built the Distribution Tools My Blog Needed](https://sublimecoding.com/blog/distribution-stack-launch)
 <!-- BLOG-POST-LIST:END -->
 
 → More at **[sublimecoding.com/blog](https://sublimecoding.com/blog)**
