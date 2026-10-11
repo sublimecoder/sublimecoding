@@ -97,11 +97,11 @@ Bias toward clarity, observability, and predictable failure. The prompts here ca
 #### Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Why I Doubt UBI Is Coming](https://sublimecoding.com/blog/why-i-doubt-ubi-is-coming)
 - [We Gated the Code and Left the Prose Wide Open](https://sublimecoding.com/blog/ai-pr-descriptions-unreviewed)
 - [Consistency Is Overrated. Persistence Isn&#39;t.](https://sublimecoding.com/blog/consistency-is-overrated-persistence-isnt)
 - [DHH&#39;s Rust Benchmark Measured the Agent, Not Elixir](https://sublimecoding.com/blog/dhh-campfire-benchmark-measured-the-agent)
 - [Where AI Belongs in a One-Person Content Operation](https://sublimecoding.com/blog/ai-in-a-one-person-content-operation)
-- [Linux Setup Was a Hazing Ritual. Agents Changed It.](https://sublimecoding.com/blog/linux-setup-hazing-agents)
 <!-- BLOG-POST-LIST:END -->
 
 → More at **[sublimecoding.com/blog](https://sublimecoding.com/blog)**
