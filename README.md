@@ -97,11 +97,11 @@ Bias toward clarity, observability, and predictable failure. The prompts here ca
 #### Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Anthropic Dropped Git for Scion. You Shouldn&#39;t.](https://sublimecoding.com/blog/anthropic-scion-git-you-dont-need-it)
+- [Claude Code and SOC 2: The Evidence Your Auditor Wants](https://sublimecoding.com/blog/claude-code-soc2-audit-evidence)
 - [Scheduled Posts in Phoenix With No Database](https://sublimecoding.com/blog/phoenix-scheduled-posts-no-database)
 - [Who Buys Anything When Robots Do the Work?](https://sublimecoding.com/blog/who-buys-anything-when-robots-do-the-work)
 - [Why I Doubt UBI Is Coming](https://sublimecoding.com/blog/why-i-doubt-ubi-is-coming)
-- [We Gated the Code and Left the Prose Wide Open](https://sublimecoding.com/blog/ai-pr-descriptions-unreviewed)
-- [Consistency Is Overrated. Persistence Isn&#39;t.](https://sublimecoding.com/blog/consistency-is-overrated-persistence-isnt)
 <!-- BLOG-POST-LIST:END -->
 
 → More at **[sublimecoding.com/blog](https://sublimecoding.com/blog)**
