@@ -97,11 +97,11 @@ Bias toward clarity, observability, and predictable failure. The prompts here ca
 #### Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [What a Fractional Chief AI Officer Does for Dev Teams](https://sublimecoding.com/blog/fractional-chief-ai-officer-engineering-teams)
 - [Anthropic Moved Its Monorepo to Scion. You Shouldn&#39;t.](https://sublimecoding.com/blog/anthropic-scion-git-you-dont-need-it)
 - [Claude Code and SOC 2: The Evidence Your Auditor Wants](https://sublimecoding.com/blog/claude-code-soc2-audit-evidence)
 - [Scheduled Posts in Phoenix With No Database](https://sublimecoding.com/blog/phoenix-scheduled-posts-no-database)
 - [Who Buys Anything When Robots Do the Work?](https://sublimecoding.com/blog/who-buys-anything-when-robots-do-the-work)
-- [Why I Doubt UBI Is Coming](https://sublimecoding.com/blog/why-i-doubt-ubi-is-coming)
 <!-- BLOG-POST-LIST:END -->
 
 → More at **[sublimecoding.com/blog](https://sublimecoding.com/blog)**
