@@ -97,11 +97,11 @@ Bias toward clarity, observability, and predictable failure. The prompts here ca
 #### Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Before You Add an AI Reviewer, Add These Checks](https://sublimecoding.com/blog/deterministic-checks-before-ai-reviewer)
 - [php2shell: What to Do if Your Servers Run PHP](https://sublimecoding.com/blog/php2shell-what-to-do-if-you-run-php)
 - [eMudhra Distrust: Why Bumping castore Won&#39;t Save Req](https://sublimecoding.com/blog/emudhra-distrust-elixir-castore)
 - [What a Fractional Chief AI Officer Does for Dev Teams](https://sublimecoding.com/blog/fractional-chief-ai-officer-engineering-teams)
 - [Anthropic Moved Its Monorepo to Scion. You Shouldn&#39;t.](https://sublimecoding.com/blog/anthropic-scion-git-you-dont-need-it)
-- [Claude Code and SOC 2: The Evidence Your Auditor Wants](https://sublimecoding.com/blog/claude-code-soc2-audit-evidence)
 <!-- BLOG-POST-LIST:END -->
 
 → More at **[sublimecoding.com/blog](https://sublimecoding.com/blog)**
