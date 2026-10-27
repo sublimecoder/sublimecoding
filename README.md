@@ -97,11 +97,11 @@ Bias toward clarity, observability, and predictable failure. The prompts here ca
 #### Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [How to Roll Out Coding Agents to an Engineering Team](https://sublimecoding.com/blog/coding-agent-rollout-engineering-team)
 - [Omarchy Review: Seven Weeks, Three Machines, One Verdict](https://sublimecoding.com/blog/omarchy-review-seven-weeks)
 - [The Decade-Old Bug Is Now a One-Week Find](https://sublimecoding.com/blog/decade-old-bug-one-week-find)
 - [Before You Add an AI Reviewer, Add These Checks](https://sublimecoding.com/blog/deterministic-checks-before-ai-reviewer)
 - [php2shell: What to Do if Your Servers Run PHP](https://sublimecoding.com/blog/php2shell-what-to-do-if-you-run-php)
-- [eMudhra Distrust: Why Bumping castore Won&#39;t Save Req](https://sublimecoding.com/blog/emudhra-distrust-elixir-castore)
 <!-- BLOG-POST-LIST:END -->
 
 → More at **[sublimecoding.com/blog](https://sublimecoding.com/blog)**
