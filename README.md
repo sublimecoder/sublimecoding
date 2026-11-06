@@ -97,11 +97,11 @@ Bias toward clarity, observability, and predictable failure. The prompts here ca
 #### Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [OpenSSH sshhole: What to Check on Alpine Linux](https://sublimecoding.com/blog/sshhole-openssh-alpine)
+- [Superintelligence Ban: What It Means for AI Startups](https://sublimecoding.com/blog/superintelligence-ban-ai-startups)
 - [Claude Code Filled /tmp and Froze My Linux Box](https://sublimecoding.com/blog/claude-code-filled-tmp-froze-linux)
 - [Your App Needs a CLI for AI Agents](https://sublimecoding.com/blog/saas-cli-for-ai-agents)
 - [SaaS Isn&#39;t Dead. You&#39;re Just Not Paying for Tokens Yet.](https://sublimecoding.com/blog/saas-isnt-dead-not-paying-for-tokens)
-- [Microsoft Is Trading Salaries for Data Centers](https://sublimecoding.com/blog/microsoft-trading-salaries-for-data-centers)
-- [How to Roll Out Coding Agents to an Engineering Team](https://sublimecoding.com/blog/coding-agent-rollout-engineering-team)
 <!-- BLOG-POST-LIST:END -->
 
 → More at **[sublimecoding.com/blog](https://sublimecoding.com/blog)**
