@@ -97,11 +97,11 @@ Bias toward clarity, observability, and predictable failure. The prompts here ca
 #### Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Exit Code 137 Isn&#39;t Always Out of Memory](https://sublimecoding.com/blog/exit-code-137-two-causes)
 - [Claude Code on Multiple Computers: What to Sync](https://sublimecoding.com/blog/claude-code-multiple-computers-sync)
 - [OpenSSH sshhole: What to Check on Alpine Linux](https://sublimecoding.com/blog/sshhole-openssh-alpine)
 - [Superintelligence Ban: What It Means for AI Startups](https://sublimecoding.com/blog/superintelligence-ban-ai-startups)
 - [Claude Code Filled /tmp and Froze My Linux Box](https://sublimecoding.com/blog/claude-code-filled-tmp-froze-linux)
-- [Your App Needs a CLI for AI Agents](https://sublimecoding.com/blog/saas-cli-for-ai-agents)
 <!-- BLOG-POST-LIST:END -->
 
 → More at **[sublimecoding.com/blog](https://sublimecoding.com/blog)**
