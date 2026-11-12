@@ -97,11 +97,11 @@ Bias toward clarity, observability, and predictable failure. The prompts here ca
 #### Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [The MVP Shortcuts That Turn Into Security Incidents](https://sublimecoding.com/blog/mvp-shortcuts-security-incidents)
 - [Stop Sourcing .env: Load It With direnv Instead](https://sublimecoding.com/blog/stop-sourcing-dotenv-use-direnv)
 - [Phoenix&#39;s Default Cache-Control and the Check It Breaks](https://sublimecoding.com/blog/phoenix-cache-control-default)
 - [Exit Code 137 Isn&#39;t Always Out of Memory](https://sublimecoding.com/blog/exit-code-137-two-causes)
 - [Claude Code on Multiple Computers: What to Sync](https://sublimecoding.com/blog/claude-code-multiple-computers-sync)
-- [OpenSSH sshhole: What to Check on Alpine Linux](https://sublimecoding.com/blog/sshhole-openssh-alpine)
 <!-- BLOG-POST-LIST:END -->
 
 → More at **[sublimecoding.com/blog](https://sublimecoding.com/blog)**
