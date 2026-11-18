@@ -97,11 +97,11 @@ Bias toward clarity, observability, and predictable failure. The prompts here ca
 #### Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Two Claude Code Accounts Share One Brain by Default](https://sublimecoding.com/blog/claude-code-two-accounts-one-brain)
 - [How Much Code Is Written by AI? Depends What You Count](https://sublimecoding.com/blog/how-much-code-is-written-by-ai)
 - [Bash or zsh on Omarchy? I Kept Bash, Lost 3 Aliases](https://sublimecoding.com/blog/omarchy-bash-or-zsh)
 - [Microsoft&#39;s Outlook Outage and the 60,000 Exit Offers](https://sublimecoding.com/blog/microsoft-outlook-outage-exit-offers)
 - [AI Stopped Leading Monthly Layoff Reasons in August](https://sublimecoding.com/blog/ai-layoff-reasons-shifted-challenger)
-- [The MVP Shortcuts That Turn Into Security Incidents](https://sublimecoding.com/blog/mvp-shortcuts-security-incidents)
 <!-- BLOG-POST-LIST:END -->
 
 → More at **[sublimecoding.com/blog](https://sublimecoding.com/blog)**
