@@ -97,11 +97,11 @@ Bias toward clarity, observability, and predictable failure. The prompts here ca
 #### Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [How I Vet a Claude Code Skill or Plugin Before It Runs](https://sublimecoding.com/blog/vet-claude-code-skills-plugins)
 - [Codex requirements.toml: Settings That Work as Controls](https://sublimecoding.com/blog/codex-requirements-toml-controls)
 - [The AI Questions on a Security Questionnaire, Answered](https://sublimecoding.com/blog/ai-security-questionnaire-questions-answered)
 - [Java4Shell: What to Do Before Your JDK Patch Lands](https://sublimecoding.com/blog/java4shell-openjdk-what-to-do)
 - [Two Claude Code Accounts Share One Brain by Default](https://sublimecoding.com/blog/claude-code-two-accounts-one-brain)
-- [How Much Code Is Written by AI? Depends What You Count](https://sublimecoding.com/blog/how-much-code-is-written-by-ai)
 <!-- BLOG-POST-LIST:END -->
 
 → More at **[sublimecoding.com/blog](https://sublimecoding.com/blog)**
