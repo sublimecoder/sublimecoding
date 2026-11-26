@@ -97,11 +97,11 @@ Bias toward clarity, observability, and predictable failure. The prompts here ca
 #### Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Hex.pm RCE: What to Check in Your Elixir App](https://sublimecoding.com/blog/hex-pm-rce-what-to-check-elixir)
 - [1Password&#39;s GitHub Breach: What Your Team Should Check](https://sublimecoding.com/blog/1password-github-breach-what-to-check)
 - [Anthropic&#39;s Rust Rewrite: The Hard Part Was the Verifier](https://sublimecoding.com/blog/anthropic-rust-rewrite-verifier)
 - [How I Vet a Claude Code Skill or Plugin Before It Runs](https://sublimecoding.com/blog/vet-claude-code-skills-plugins)
 - [Codex requirements.toml: Settings That Work as Controls](https://sublimecoding.com/blog/codex-requirements-toml-controls)
-- [The AI Questions on a Security Questionnaire, Answered](https://sublimecoding.com/blog/ai-security-questionnaire-questions-answered)
 <!-- BLOG-POST-LIST:END -->
 
 → More at **[sublimecoding.com/blog](https://sublimecoding.com/blog)**
